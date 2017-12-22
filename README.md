@@ -1,0 +1,2 @@
+# BungeePlugins
+BungeeCord 上で読み込まれているプラグインを確認する物
