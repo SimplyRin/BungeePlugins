@@ -29,9 +29,7 @@ public class Main extends Plugin {
 					pl += p.getDescription().getName() + "§f, §a";
 				}
 
-				pl = pl.substring(0, (pl.length() - 4));
-
-				sender.sendMessage(getPrefix() + "§fPlugins: (" + plugins.size() + "): §a" + pl);
+				sender.sendMessage(getPrefix() + "§fPlugins: (" + plugins.size() + "): §a" + pl.substring(0, (pl.length() - 4)));
 			}
 		});
 	}
